@@ -1,0 +1,61 @@
+.header {
+    padding-top: 20px;
+    padding-bottom: 8px;
+    border-radius: 0 0 5px 5px;
+    background: #F2F9FB;
+}
+
+.header .logo {
+    overflow:auto;
+}
+.header .logo img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background: #555;
+}
+
+.header .logo h1 {
+    float: left;
+    padding-left: 20px;
+}
+
+.nav-nobg>li>a {
+    background: none;
+    border-radius: 0;
+    border-left: 3px solid #F2F9FB;
+}
+
+.nav-nobg>li>a.active {
+    background: none;
+    border-radius: 0;
+    border-left: 3px solid #0081BB;
+}
+
+.nav-nobg>li>a:hover {
+    background: none;
+    border-radius: 0;
+    border-left: 3px solid #0081BB;
+}
+
+.nav-nobg>li>a:focus {
+    background: none;
+    border-radius: 0;
+    border-left: 3px solid #0081BB;
+}
+
+.bg-title {
+    background-color: #C9E7ED;
+    border-radius: 5px 5px 0 0;
+}
+
+.bg-body {
+    background-color: #F2F9FB;
+    border-radius: 0 0 5px 5px;
+    border-top: none;
+    padding: 7px;
+}
+
+div.interval {
+    height: 30px;
+}
